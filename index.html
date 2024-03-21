@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css">
+    <title>PasaLoad System</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Pasaload System</h1>
+        <div>
+            <label for="sender">Sender Phone number</label>
+            <input type="text" id="sender">
+        </div>
+        	<button onclick="addBalance()">Add Balance to Sender</button>
+        <div>
+            <label for="receiver">Receiver Phone number</label>
+            <input type="text" id="receiver">
+        </div>
+        <div>
+            <label for="amount">Amount to Transfer</label>
+            <input type="number" id="amount">
+        </div>
+        <button onclick="transferLoad()">Transfer Load</button>
+        <button onclick="checkBalance()">Check Balance</button>
+        <p id="message"></p>
+    </div>
+
+
+    <!-- JavaScript File -->
+    <script src="./index.js"></script>
+</body>
+</html>
